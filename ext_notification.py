@@ -6,9 +6,9 @@ from serverchan_sdk import sc_send
 
 
 def send_notification(message):
-    title = "库街区自动签到任务"
-    send_bark_notification(title, message)
-    send_server3_notification(title, message)
+    title = "库街区自动签到任务 | "
+    send_bark_notification(title + message, message)
+    send_server3_notification(title + message, message)
 
 
 def send_bark_notification(title, message):
