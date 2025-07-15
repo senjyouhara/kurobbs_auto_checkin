@@ -39,3 +39,4 @@ jobs:
           SERVER3_SEND_KEY: ${{ secrets.SERVER3_SEND_KEY }} # ServerChan3
         run: |
           python auto_checkin.py
+
