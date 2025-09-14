@@ -37,12 +37,12 @@ class KurobbsClient:
     def get_headers(self) -> Dict[str, str]:
         """Get the headers required for API requests."""
         return {
-            "osversion": "h5",
+            "osversion": "Android",
             "devcode": "2fba3859fe9bfe9099f2696b8648c2c6",
             "countrycode": "CN",
             "ip": "10.0.2.233",
             "model": "2211133C",
-            "source": "h5",
+            "source": "android",
             "lang": "zh-Hans",
             "version": "1.0.9",
             "versioncode": "1090",
