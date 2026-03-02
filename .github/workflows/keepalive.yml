@@ -6,7 +6,7 @@ name: Keepalive Workflow
 on:
   schedule:
     # 每 50 天运行一次 (每月 1 日和 21 日 UTC 1:00)
-    - cron: '0 1 3,21 * *'
+    - cron: '0 1 3 * *'
   # 手动触发
   workflow_dispatch:
 
