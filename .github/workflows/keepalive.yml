@@ -20,7 +20,7 @@ jobs:
 
       - name: 保持活跃 Update tmp.txt with timestamp
         run: |
-          date +%Y-%m-%d %H:%M:%S > tmp.txt
+          date "+%Y-%m-%d %H:%M:%S" > tmp.txt
 
       - name: Commit and push if changed
         run: |
