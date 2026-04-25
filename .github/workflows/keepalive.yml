@@ -24,7 +24,7 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name "senjyouhara"
           git config user.email "ayano@loli.com.co"
           
           git add tmp.txt
